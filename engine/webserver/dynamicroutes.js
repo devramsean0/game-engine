@@ -8,7 +8,7 @@ function routesloader(app, dynamicroutes) {
     arraynum = oldarraynum + 1;
 }
 function webserverdynamicroutes(app) {
-    dynamicroutes.array.forEach(routesloader);
+    dynamicroutes.array.forEach(routesloader(app));
     console.log('called the dynamic routes loader')
 }
 module.exports = webserverdynamicroutes;
