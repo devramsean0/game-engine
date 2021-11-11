@@ -1,4 +1,7 @@
-function webservercall(express, app) {
+function webserversections(express, app) {
+    
+}
+function webservercall() {
 
 }
 module.exports = webservercall;
